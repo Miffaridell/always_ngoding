@@ -1,12 +1,13 @@
-package day4;
+package day6;
 
 public class Main {
     
     public static void main(String[] args) {
-        int angka1 = 5;
-        int angka2 = 10;
-        int hasil = angka1 * angka2;
-        System.out.println("hasilnya :" + hasil);
+         //menghitung jarak kota A ke b//
+        int kotaA = 50;
+        int kotaB = 80;
+        int hasil = kotaB - kotaA;
+        System.out.println("hasilnya :" +hasil);
     }
     
 }

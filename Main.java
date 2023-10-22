@@ -1,13 +1,18 @@
-package day6;
+package arraylist;
+import java.util.ArrayList;
 
 public class Main {
     
     public static void main(String[] args) {
-         //menghitung jarak kota A ke b//
-        int kotaA = 50;
-        int kotaB = 80;
-        int hasil = kotaB - kotaA;
-        System.out.println("hasilnya :" +hasil);
+        ArrayList<Integer> angka = new ArrayList<>();
+        
+        angka.add(14);
+        angka.add(20);
+        angka.add(24);
+        
+        int angkapertama= angka.get(0);
+        System.out.println("Elemen pertama: " + angkapertama);
     }
     
 }
+    
